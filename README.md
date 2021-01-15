@@ -1,4 +1,4 @@
-Reflection 14/1/2021
+###Reflection 14/1/2021
 	Thao tác di chuyển 1 đối tượng là các bước thêm đối tượng với tọa độ ban đầu->ẩn đối tượng->thay đội tọa độ của đối tượng->hiện thị lại đối tượng với tọa độ vừa thay đổi đặt trong 1 vòng lặp hoặc gọi ra bằng 1 action.
 		ví dụ: 
 		```
@@ -33,17 +33,17 @@ Reflection 14/1/2021
     }
 	}
 	```
-	Khai báo 1 class bằng 
+	Khai báo một class bằng 
 	```
 		class className{
 		constructtor(){
 			}
 		}
-		```
+	```
 	Thay vì funtion className(){}
 	Để tránh nhầm lẫn giữa function và class:
 		ta dùng:
-		```
+	```
 		class Circle {
 		constructor(x,y,radius) {
         this.x = x;
