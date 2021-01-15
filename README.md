@@ -5,7 +5,6 @@
 	->hiện thị lại đối tượng với tọa độ vừa thay đổi đặt trong 1 vòng lặp hoặc gọi ra bằng 1 action.
 	ví dụ: 
 	
-	```
 	class Circle {
 		constructor(x,y,radius) {
         this.x = x;
@@ -64,4 +63,3 @@
 	this.y=y;
 	this.radius=radius;
 	}
-	```
