@@ -1,5 +1,6 @@
 ### Reflection Module 1
 Mục tiêu đã đề ra: Kiếm được việc lương trên 15tr
+```
 Các hành động đã làm:
 Mỗi ngày thực hiện các công việc:
 	Xem thời khóa biểu
@@ -20,4 +21,5 @@ Khi gặp vấn đề không tự giải quyết được đã hỏi các bạn,
 Tự tìm hiểu thêm kiến thức không có trong giáo trình, bài đọc, bài giảng.
 Có sử dụng các code có sẵn, tuy nhiên chỉ khỉ hiểu được công dụng của code đó thì mới dùng cho bài của mình.
 Hoàn thành Case Study-40%, 60% còn lại vẫn còn trên ý tưởng.
-Sẽ cố gắng hơn khi học module 2
+Sẽ cố gắng hơn khi học module 2.
+```
