@@ -1,65 +1,23 @@
-###Reflection 14/1/2021
-	Thao tác di chuyển 1 đối tượng là các bước:
-	thêm đối tượng với tọa độ ban đầu
-	->ẩn đối tượng->thay đội tọa độ của đối tượng
-	->hiện thị lại đối tượng với tọa độ vừa thay đổi đặt trong 1 vòng lặp hoặc gọi ra bằng 1 action.
-	ví dụ: 
-	
-	class Circle {
-		constructor(x,y,radius) {
-        this.x = x;
-        this.y = y;
-        this.radius = radius;
-        this.color = "blue";
-        this.direct = 'left';
-    }
-
-    setColor(color){
-        this.color = color;
-    }
-
-    moveRight(){
-        this.x += 5;
-    }
-
-    moveLeft(){
-        this.x -= 5;
-    }
-
-    render(canvas){
-        // let ctx = document.getElementById("myCanvas").getContext('2d');
-        let ctx = canvas.getContext('2d');
-        ctx.beginPath();
-        ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
-        ctx.fillStyle = this.color;
-        ctx.fill();
-		}
-	}
-
-	Khai báo một class bằng 
-
-		class className{
-		constructtor(){
-			}
-		}
-
-	Thay vì funtion className(){}
-	Để tránh nhầm lẫn giữa function và class:
-		ta dùng:
-
-		class Circle {
-		constructor(x,y,radius) {
-        this.x = x;
-        this.y = y;
-        this.radius = radius;
-        this.color = "blue";
-        this.direct = 'left';
-    }
-
-	thay cho:
-
-	function Circle(x,y,radius){
-	this.x=x;
-	this.y=y;
-	this.radius=radius;
-	}
+### Reflection Module 1
+Mục tiêu đã đề ra: Kiếm được việc lương trên 15tr
+Các hành động đã làm:
+Mỗi ngày thực hiện các công việc:
+	Xem thời khóa biểu
+	Xem các bài học của hôm đó.
+	Lên kế hoạch thực hiện công việc dựa trên các bài học
+		15 phút cho việc đọc 1 bài đọc
+		15 phút cho việc xem bài giảng
+		20 phút làm quiz để củng cố kiến thức
+		1 tiếng cho mỗi bài thực hành:
+			Hiểu được code
+			Code lại theo ý hiểu để chạy.
+			debug, test
+		1 tiếng rưỡi tiếng cho việc làm 1 bài tập.
+	Làm reflection cuối ngày
+	Xem trước kiến thức cần học ngày hôm sau.
+Khi gặp vấn đề không tự giải quyết được đã hỏi các bạn, hỏi các tutor và coach.
+Đã có thể giúp bạn học giải quyết một số vấn đề.
+Tự tìm hiểu thêm kiến thức không có trong giáo trình, bài đọc, bài giảng.
+Có sử dụng các code có sẵn, tuy nhiên chỉ khỉ hiểu được công dụng của code đó thì mới dùng cho bài của mình.
+Hoàn thành Case Study-40%, 60% còn lại vẫn còn trên ý tưởng.
+Sẽ cố gắng hơn khi học module 2
